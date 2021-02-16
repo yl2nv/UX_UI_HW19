@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    border:solid red 0.05
+}
+
+body {
+    margin: 0;
+    font-family: 'Forum', sans-serif;
+}
+
+header {
+    display: flex;
+    border-bottom: solid black 0.05px;
+}
+
+.nameContainer {
+    width: 30%;
+    min-width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-right: solid black 0.05px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.top-nav {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    border-right: solid black 0.05px;
+}
+
+/*title section*/
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+
+/* Hero Section*/
+
+.imageContainer {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction {
+    display: flex;
+    justify-content: left;
+    width: 300px;
+    height: 200px;
+}
+
+.heroImage {
+    display:flex;
+    float: left;
+    width: 50%;
+    height: 80%;
+    opacity: 0.3;
+    padding: 0px 30px 0px 30px;
+}
+.one {
+    grid-area: one;
+}
+
+.headerContainer {
+    width: 100%;
+    min-width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+
+#heroGrid {
+    grid-area: heroGrid;
+    background-image: url(./images/portfolioimage.jpeg);
+}
+
+/*after content*/
+
+.resume {
+    text-decoration: none;
+    border-right: solid black 0.05px;
+    width:33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.projects {
+    text-decoration: none;
+    border-right: solid black 0.05px;
+    width:33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.contact {
+    text-decoration: none;
+    width:33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.afterContentArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border-top: solid black 0.05px;
+}
+
+/*footer*/
+.footer {
+    justify-content: flex-end;
+    border-top: solid black 0.05px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-to-top {
+    text-decoration: none;
+}
